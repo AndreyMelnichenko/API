@@ -1,0 +1,9 @@
+net/webservicex/package-info.class
+net/webservicex/GeoIPServiceSoap.class
+net/webservicex/ObjectFactory.class
+net/webservicex/GeoIPService.class
+net/webservicex/GetGeoIPResponse.class
+net/webservicex/GetGeoIPContextResponse.class
+net/webservicex/GetGeoIP.class
+net/webservicex/GeoIP.class
+net/webservicex/GetGeoIPContext.class
