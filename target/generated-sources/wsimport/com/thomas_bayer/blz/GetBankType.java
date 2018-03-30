@@ -1,24 +1,23 @@
 
-package net.webservicex;
+package com.thomas_bayer.blz;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Java class for getBankType complex type.
  * 
  * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
- * &lt;complexType>
+ * &lt;complexType name="getBankType">
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element name="IPAddress" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
+ *         &lt;element name="blz" type="{http://www.w3.org/2001/XMLSchema}string"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>
@@ -28,37 +27,36 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "", propOrder = {
-    "ipAddress"
+@XmlType(name = "getBankType", propOrder = {
+    "blz"
 })
-@XmlRootElement(name = "GetGeoIP")
-public class GetGeoIP {
+public class GetBankType {
 
-    @XmlElement(name = "IPAddress")
-    protected String ipAddress;
+    @XmlElement(required = true)
+    protected String blz;
 
     /**
-     * Gets the value of the ipAddress property.
+     * Gets the value of the blz property.
      * 
      * @return
      *     possible object is
      *     {@link String }
      *     
      */
-    public String getIPAddress() {
-        return ipAddress;
+    public String getBlz() {
+        return blz;
     }
 
     /**
-     * Sets the value of the ipAddress property.
+     * Sets the value of the blz property.
      * 
      * @param value
      *     allowed object is
      *     {@link String }
      *     
      */
-    public void setIPAddress(String value) {
-        this.ipAddress = value;
+    public void setBlz(String value) {
+        this.blz = value;
     }
 
 }

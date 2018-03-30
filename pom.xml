@@ -38,7 +38,7 @@
                     <sei/>
                     <wsdlUrls>
                         <wsdlUrl>
-                            http://www.webservicex.net/geoipservice.asmx?WSDL
+                            http://thomas-bayer.com/axis2/services/BLZService?wsdl
                         </wsdlUrl>
                     </wsdlUrls>
                 </configuration>
