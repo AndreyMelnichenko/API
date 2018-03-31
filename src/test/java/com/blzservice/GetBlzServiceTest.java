@@ -8,7 +8,7 @@ import static org.testng.Assert.assertEquals;
 
 public class GetBlzServiceTest extends BaseTest {
 
-    @Test
+    @Test(priority=1)
     public void setBlzService(){
         DetailsType detailsType = serviceClient.getBank("57020086");
         System.out.println("Bank Name: "+detailsType.getBezeichnung());
@@ -18,7 +18,7 @@ public class GetBlzServiceTest extends BaseTest {
         assertEquals("56003",detailsType.getPlz());
     }
 
-    @Test
+    @Test(priority=2)
     public void anotherValue(){
         DetailsType bank = serviceClient.getBank("57050120");
         System.out.println(bank.getPlz());

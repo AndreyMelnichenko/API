@@ -7,7 +7,7 @@ import org.testng.annotations.BeforeClass;
 
 public class BaseTest {
 
-    protected BLZService blzService = new BLZService();
+    private BLZService blzService = new BLZService();
     protected BLZServicePortType serviceClient;
 
     @BeforeClass
