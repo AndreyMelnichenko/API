@@ -2,21 +2,30 @@ package com.blzservice;
 
 import com.thomas_bayer.blz.BLZService;
 import com.thomas_bayer.blz.DetailsType;
-import com.thomas_bayer.blz.GetBankType;
+import com.utils.JaxWsHandlerResolver;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
-import javax.lang.model.type.DeclaredType;
 
 import static org.testng.Assert.assertEquals;
 
 
 public class GetBlzService {
 
-    BLZService blzService = new BLZService();
+    BLZService blzServiceClient = new BLZService();
+
+    @BeforeClass
+    public void setUp(){
+        blzServiceClient.setHandlerResolver(new JaxWsHandlerResolver());
+    }
+
+
+    //JaxWsHandlerResolver jaxWsHandlerResolver = ;
+
 
     @Test
     public void setBlzService(){
-        DetailsType detailsType = blzService.getBLZServiceSOAP11PortHttp().getBank("57020086");
+        //blzServiceClient.setHandlerResolver(jaxWsHandlerResolver);
+        DetailsType detailsType = blzServiceClient.getBLZServiceSOAP11PortHttp().getBank("57020086");
         System.out.println("Bank Name: "+detailsType.getBezeichnung());
         System.out.println("Address: " +detailsType.getOrt());
         System.out.println("ORT Code: "+detailsType.getPlz());
