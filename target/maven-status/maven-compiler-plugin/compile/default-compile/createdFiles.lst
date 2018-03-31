@@ -1,7 +1,10 @@
-com\thomas_bayer\blz\DetailsType.class
-com\thomas_bayer\blz\BLZServicePortType.class
-com\thomas_bayer\blz\GetBankResponseType.class
-com\thomas_bayer\blz\BLZService.class
-com\thomas_bayer\blz\package-info.class
-com\thomas_bayer\blz\GetBankType.class
-com\thomas_bayer\blz\ObjectFactory.class
+com/thomas_bayer/blz/BLZService.class
+com/thomas_bayer/blz/ObjectFactory.class
+com/thomas_bayer/blz/DetailsType.class
+com/thomas_bayer/blz/GetBankResponseType.class
+com/thomas_bayer/blz/package-info.class
+com/utils/XmlFormatter.class
+com/utils/SoapClientHandlerLog.class
+com/utils/JaxWsHandlerResolver.class
+com/thomas_bayer/blz/BLZServicePortType.class
+com/thomas_bayer/blz/GetBankType.class

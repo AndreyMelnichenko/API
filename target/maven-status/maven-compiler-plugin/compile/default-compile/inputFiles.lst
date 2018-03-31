@@ -1,7 +1,10 @@
-D:\GIT\api\target\generated-sources\wsimport\com\thomas_bayer\blz\DetailsType.java
-D:\GIT\api\target\generated-sources\wsimport\com\thomas_bayer\blz\GetBankResponseType.java
-D:\GIT\api\target\generated-sources\wsimport\com\thomas_bayer\blz\GetBankType.java
-D:\GIT\api\target\generated-sources\wsimport\com\thomas_bayer\blz\package-info.java
-D:\GIT\api\target\generated-sources\wsimport\com\thomas_bayer\blz\BLZService.java
-D:\GIT\api\target\generated-sources\wsimport\com\thomas_bayer\blz\ObjectFactory.java
-D:\GIT\api\target\generated-sources\wsimport\com\thomas_bayer\blz\BLZServicePortType.java
+/home/andrey/git/WS/src/main/java/com/utils/XmlFormatter.java
+/home/andrey/git/WS/target/generated-sources/wsimport/com/thomas_bayer/blz/DetailsType.java
+/home/andrey/git/WS/target/generated-sources/wsimport/com/thomas_bayer/blz/ObjectFactory.java
+/home/andrey/git/WS/src/main/java/com/utils/SoapClientHandlerLog.java
+/home/andrey/git/WS/target/generated-sources/wsimport/com/thomas_bayer/blz/BLZServicePortType.java
+/home/andrey/git/WS/target/generated-sources/wsimport/com/thomas_bayer/blz/package-info.java
+/home/andrey/git/WS/target/generated-sources/wsimport/com/thomas_bayer/blz/GetBankType.java
+/home/andrey/git/WS/target/generated-sources/wsimport/com/thomas_bayer/blz/BLZService.java
+/home/andrey/git/WS/src/main/java/com/utils/JaxWsHandlerResolver.java
+/home/andrey/git/WS/target/generated-sources/wsimport/com/thomas_bayer/blz/GetBankResponseType.java

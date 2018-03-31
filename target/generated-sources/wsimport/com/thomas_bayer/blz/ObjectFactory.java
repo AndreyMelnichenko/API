@@ -35,14 +35,6 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link DetailsType }
-     * 
-     */
-    public DetailsType createDetailsType() {
-        return new DetailsType();
-    }
-
-    /**
      * Create an instance of {@link GetBankType }
      * 
      */
@@ -56,6 +48,14 @@ public class ObjectFactory {
      */
     public GetBankResponseType createGetBankResponseType() {
         return new GetBankResponseType();
+    }
+
+    /**
+     * Create an instance of {@link DetailsType }
+     * 
+     */
+    public DetailsType createDetailsType() {
+        return new DetailsType();
     }
 
     /**

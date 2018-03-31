@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="1135" started-at="2018-03-30T18:22:46Z" finished-at="2018-03-30T18:22:47Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="1135" started-at="2018-03-30T18:22:46Z" finished-at="2018-03-30T18:22:47Z">
+      <class name="com.blzservice.GetBlzServiceTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blzservice.GetBlzServiceTest@48eff760]" name="setUp" is-config="true" duration-ms="604" started-at="2018-03-30T21:22:46Z" finished-at="2018-03-30T21:22:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="anotherValue()[pri:0, instance:com.blzservice.GetBlzServiceTest@48eff760]" name="anotherValue" duration-ms="327" started-at="2018-03-30T21:22:47Z" finished-at="2018-03-30T21:22:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- anotherValue -->
+        <test-method status="PASS" signature="setBlzService()[pri:0, instance:com.blzservice.GetBlzServiceTest@48eff760]" name="setBlzService" duration-ms="188" started-at="2018-03-30T21:22:47Z" finished-at="2018-03-30T21:22:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBlzService -->
+      </class> <!-- com.blzservice.GetBlzServiceTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
